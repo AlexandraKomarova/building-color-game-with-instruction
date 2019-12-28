@@ -49,7 +49,7 @@ resetButton.addEventListener("click", function(){
     for(var i = 0; i < squares.length; i++){
         squares[i].style.backgroundColor = colors[i];
     }
-    h1.style.backgroundColor = "#232323";
+    h1.style.backgroundColor = "steelblue";
 });
 
 colorDisplay.textContent = pickedColor;
@@ -69,7 +69,7 @@ for(var i = 0; i < squares.length; i++){
             changeColors(clickedColor);
             h1.style.backgroundColor = clickedColor;
         } else {
-            this.style.backgroundColor = "#232323";
+            this.style.backgroundColor = "white";
             messageDisplay.textContent = "Try Again!";
         } 
     });
